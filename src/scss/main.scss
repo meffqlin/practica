@@ -13,6 +13,7 @@
 @use 'components/button';
 @use 'components/card';
 @use 'components/_header';
+@use 'components/_card2';
 
 
 .block_New_Arrival {
@@ -110,5 +111,30 @@
     display: flex;
     margin-left: 166px;
     gap: 20px;
+  }
+}
+
+.our_products {
+  margin-top: 60px;
+  .our_products_all_card {
+    margin-top: 136px;
+    margin-left: 102px;
+    .our_products_part_card1 {
+      display: flex;
+      gap: 48px;
+    }
+    .our_products_part_card2 {
+      display: flex;
+      gap: 48px;
+      padding-top:97px;
+    }
+  }
+  .our_products_text {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
   }
 }

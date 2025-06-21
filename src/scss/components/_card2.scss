@@ -1,0 +1,109 @@
+.card__2 {
+  width: 285px;
+  height: 456px;
+  cursor: pointer;
+  background-color: #F4F5F7;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  .block__card2__img {
+    position: relative;
+  .card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(58, 58, 58, 0.72);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    }
+    .block__card__new {
+      display: flex;
+      position: relative;
+      .card__image2 {
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 213px;
+        width: 48px;
+        height: 48px;
+        transition: transform 0.3s ease;
+        z-index: 2;
+      }
+      .card__new {
+        position: absolute;
+        z-index: 4;
+        margin-top: 30px;
+        margin-left: 216px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: white;
+      }
+    }
+    .card__image3 {
+      margin-top: -55px;
+
+    }
+  }
+  .card__body2 {
+    margin-left: 16px;
+    margin-top: -10px;
+    .card__text2 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 120%;
+      letter-spacing: 0%;
+      color: #3A3A3A;
+    }
+    .card__text3{
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: #898989;
+      margin-top: -10px;
+      margin-bottom: -10px;
+    }
+    .card__text_block {
+      display: flex;
+      position: absolute;
+      margin-top: -26pxpx;
+    }
+      .card__text4 {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: #3A3A3A;
+      }
+      .card__text5 {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-decoration: line-through;
+        color: #B0B0B0;
+        position: absolute;
+        margin-top: 21px;
+        padding-left: 16px;
+        white-space: nowrap;
+      }
+  }
+}
+
+.card__2:hover{
+  background: rgba(58, 58, 58, 0.72);
+}
+
+.card__action-btn {
+  background: none;
+  border: none;
+}
