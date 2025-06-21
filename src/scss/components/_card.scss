@@ -1,15 +1,10 @@
 .card {
-  &__body {
-    background: red;
-    border-radius: var(--border-radius-default);
-    padding: var(--padding-block) var(--padding-inline);
-  }
-
-  &__title {
-    font-family: var(--font-family-title), sans-serif;
-  }
-
-  &__text {
-
-  }
+    .card__body {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+    }
 }

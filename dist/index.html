@@ -5,34 +5,76 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
-    <title>Document</title>
+    <title>Furniro</title>
 </head>
 <body>
-<h1>Карточки</h1>
+<header>
+    <div class="logo">
+       <div class="logo__photo"> <img src="../assets/images/logo.webp"></div>
+        <div class="logo__text"><b>Furniro</b></div>
+    </div>
+    <nav class="navigation">
+        <a href="#" class="text_navigation">Home</a>
+        <a href="#" class="text_navigation">Shop</a>
+        <a href="#" class="text_navigation">About</a>
+        <a href="#" class="text_navigation">Contact</a>
+    </nav>
+    <div class="shapka">
+        <div class="shapka__photo"> <img src="../assets/images/chel.webp"></div>
+        <div class="shapka__photo"> <img src="../assets/images/search.webp"></div>
+        <div class="shapka__photo"> <img src="../assets/images/fav.webp"></div>
+        <div class="shapka__photo"> <img src="../assets/images/corzina.webp"></div>
+    </div>
+</header>
 
-<div class="card">
-    <picture>
-        <source srcset="./assets/images/cat1-sm.webp" media="(max-width: 480px)">
-        <source srcset="./assets/images/cat1-lg.webp" media="(max-width: 800px)">
-        <img src="./assets/images/cat1.webp" alt="Изображение 1" class="card__image">
-    </picture>
-    <div class="card__body">
-        <h3 class="card__title">Заголовок 1</h3>
-        <p class="card__text">Текст описания карточки 1</p>
+<div class="block_New_Arrival">
+    <div class="block_New_Arrival_img">
+        <img src="../assets/images/scandinavian-interior-mockup-wall-decal-background 1.webp" class="block_New_Arrival_img">
+    </div>
+    <div class="block_New_Arrival_text">
+        <div class="block_New_Arrival_text1">New Arrival</div>
+        <div class="block_New_Arrival_text2">Discover Our<br> New Collection</div>
+        <div class="block_New_Arrival_text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut<br> elit tellus, luctus nec ullamcorper mattis.</div>
+        <button class="block_New_Arrival_btn">BUY Now</button>
     </div>
 </div>
-
-<div class="card">
+<div class="block_Browse_The_Range">
+    <div class="block_Browse_The_Range_text1">
+        <div class="block_Browse_The_Range_text2">Browse The Range</div>
+        <div class="block_Browse_The_Range_text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </div>
+    <div class="block_Browse_The_Range_card">
+        <div class="card">
     <picture>
-        <source srcset="./assets/images/cat1-sm.webp" media="(max-width: 480px)">
-        <source srcset="./assets/images/cat1-lg.webp" media="(max-width: 800px)">
-        <img src="./assets/images/cat1.webp" alt="Изображение 2" class="card__image">
+        <source srcset="./assets/images/card1-sm.webp" media="(max-width: 381px)">
+        <source srcset="./assets/images/card1-lg.webp" media="(max-width: 480px)">
+        <img src="./assets/images/card1.webp" class="card__image">
     </picture>
     <div class="card__body">
-        <h3 class="card__title">Заголовок 2</h3>
-        <p class="card__text">Текст описания карточки 2</p>
+        <p class="card__text">Dining</p>
     </div>
 </div>
-
+        <div class="card">
+    <picture>
+        <source srcset="./assets/images/card2-sm.webp" media="(max-width: 381px)">
+        <source srcset="./assets/images/card2-lg.webp" media="(max-width: 480px)">
+        <img src="./assets/images/card2.webp" class="card__image">
+    </picture>
+    <div class="card__body">
+        <p class="card__text">Living</p>
+    </div>
+</div>
+        <div class="card">
+    <picture>
+        <source srcset="./assets/images/card3-sm.webp" media="(max-width: 381px)">
+        <source srcset="./assets/images/card3-lg.webp" media="(max-width: 480px)">
+        <img src="./assets/images/card3.webp" class="card__image">
+    </picture>
+    <div class="card__body">
+        <p class="card__text">Bedroom</p>
+    </div>
+</div>
+    </div>
+</div>
 </body>
 </html>

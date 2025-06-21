@@ -9,22 +9,38 @@
     <title>Furniro</title>
 </head>
 <body>
-@@in
-<h1>Карточки</h1>
+@@include('../components/_header.html')
 
-@@include('../components/_card.html', {
-"img": "./assets/images/cat1",
-"alt": "Изображение 1",
-"title": "Заголовок 1",
-"text": "Текст описания карточки 1"
-})
-
-@@include('../components/_card.html', {
-"img": "./assets/images/cat1",
-"alt": "Изображение 2",
-"title": "Заголовок 2",
-"text": "Текст описания карточки 2"
-})
-
+<div class="block_New_Arrival">
+    <div class="block_New_Arrival_img">
+        <img src="../assets/images/scandinavian-interior-mockup-wall-decal-background 1.webp" class="block_New_Arrival_img">
+    </div>
+    <div class="block_New_Arrival_text">
+        <div class="block_New_Arrival_text1">New Arrival</div>
+        <div class="block_New_Arrival_text2">Discover Our<br> New Collection</div>
+        <div class="block_New_Arrival_text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut<br> elit tellus, luctus nec ullamcorper mattis.</div>
+        <button class="block_New_Arrival_btn">BUY Now</button>
+    </div>
+</div>
+<div class="block_Browse_The_Range">
+    <div class="block_Browse_The_Range_text1">
+        <div class="block_Browse_The_Range_text2">Browse The Range</div>
+        <div class="block_Browse_The_Range_text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </div>
+    <div class="block_Browse_The_Range_card">
+        @@include('../components/_card.html', {
+        "img": "./assets/images/card1",
+        "text": "Dining"
+        })
+        @@include('../components/_card.html', {
+        "img": "./assets/images/card2",
+        "text": "Living"
+        })
+        @@include('../components/_card.html', {
+        "img": "./assets/images/card3",
+        "text": "Bedroom"
+        })
+    </div>
+</div>
 </body>
 </html>
