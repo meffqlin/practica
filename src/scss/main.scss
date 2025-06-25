@@ -14,6 +14,7 @@
 @use 'components/card';
 @use 'components/_header';
 @use 'components/_card2';
+@use 'components/_footer';
 
 
 .block_New_Arrival {
@@ -258,6 +259,7 @@
 }
 .share_block {
   margin-top: 67px;
+  margin-bottom: 744px;
   .container_share {
     text-align: center;
     .share_content {
