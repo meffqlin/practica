@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Product</title>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body>
+@@include('../components/_header.html',)
+<div class="strelki">
+    <div>
+        <p class="strelki__text">Home</p>
+    </div>
+
+    <div>
+        <span class="strelki__span"> > </span>
+    </div>
+
+    <div>
+        <p class="strelki__text">Shop</p>
+    </div>
+
+    <div>
+        <span class="strelki__span"> > </span>
+    </div>
+
+    <div class="strelki__block">
+        <span class="strelki__span">Asgaard sofa</span>
+    </div>
+</div>
+
+<!--@@include('../components/_product.html', {-->
+<!--"img1": "./assets/images/shop1",-->
+<!--"img2": "./assets/images/shop2",-->
+<!--"img3": "./assets/images/shop3",-->
+<!--"img4": "./assets/images/shop4",-->
+<!--"img_glav": "./assets/images/shop5",-->
+<!--"title": "Asgaard sofa",-->
+<!--"price": "Rs. 250,000.00",-->
+<!--"mark":"./assets/images/stars",-->
+<!--"sizeNow":"L",-->
+<!--"size1":"XL",-->
+<!--"size2":"XS",})-->
+<div class="descrip">
+    <div class="descrip__title">
+        <div>
+            <span class="descrip__span">Description</span>
+        </div>
+
+        <div>
+            <p class="descrip__text">Additional Information</p>
+        </div>
+
+        <div>
+            <p class="descrip__text">Reviews [5]</p>
+        </div>
+    </div>
+    <div class="descrip__abzac">
+        <p class="descrip__description">Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and
+            sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+        <p class="descrip__description">Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest
+            speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange
+            and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls
+            to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+    </div>
+    <div class="descrip__img">
+        <div>
+            <img src="../assets/images/shop.webp"/>
+        </div>
+        <div>
+            <img src="../assets/images/shop.webp"/>
+        </div>
+    </div>
+</div>
+<div class="shop__karti">
+    <h1 class="shop__karti__zag">Related Products</h1>
+    <div class="cardProd">
+        <div class="cardProd__block">
+            <div class="cardProd__nov">
+                @@include('../components/_card2.html', {
+                "img": "./assets/images/Ellipse3",
+                "img2": "./assets/images/card_2",
+                "text": "Syltherine",
+                "text_2": "Stylish cafe chair",
+                "text3": "Rp 2.500.000",
+                "text4": "Rp 3.500.000",
+                "new": "-30%"
+                })
+            </div>
+        </div>
+
+        <div class="cardProd__block">
+            <div class="cardProd__nov">
+                <div class="cardProd__stiker">
+                    @@include('../components/_card2.html')
+                </div>
+                @@include('../components/_card2.html', {
+                "img": "./assets/images/none",
+                "img2": "./assets/images/stul",
+                "text": "Leviosa",
+                "text_2": "Stylish cafe chair",
+                "text3": "Rp 2.500.000",
+                "text4": "",
+                "new": ""
+                })
+            </div>
+        </div>
+
+        <div class="cardProd__block">
+            <div class="cardProd__nov">
+                @@include('../components/_card2.html', {
+                "img": "./assets/images/Ellipse3",
+                "img2": "./assets/images/divan2",
+                "text": "Lolito",
+                "text_2": "Luxury big sofa",
+                "text3": "Rp 7.000.000",
+                "text4": "Rp 14.000.000",
+                "new": "-50%"
+                })
+            </div>
+        </div>
+
+        <div class="cardProd__block">
+            <div class="cardProd__nov">
+                @@include('../components/_card2.html', {
+                "img": "./assets/images/zel_crug",
+                "img2": "./assets/images/divan3",
+                "text": "Respira",
+                "text_2": "Outdoor bar table and stool",
+                "text3": "Rp 500.000",
+                "text4": "",
+                "new": "New"
+                })
+            </div>
+        </div>
+    </div>
+    @@include('../components/_button1.html')
+</div>
+@@include('../components/_footer.html')
+</body>
+</html>

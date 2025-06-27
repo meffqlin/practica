@@ -1,0 +1,45 @@
+.benefits {
+  display: flex;
+  gap: 25px;
+  padding: 20px;
+  background-color: rgba(250, 243, 234, 1);
+
+  .benefits__item {
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 45px;
+  }
+
+  .benefits__icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+    position: absolute;
+
+    .benefits__icon.icon-high-quality{ content: "High Quality" }
+    .benefits__icon.icon-warranty { content: "warranty" }
+    .benefits__icon.icon-free-shipping { content: "free-shipping" }
+    .benefits__icon.icon-support { content: "support" }
+
+  }
+
+  .benefits__title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    margin-bottom: 5px;
+    color: rgba(36, 36, 36, 1);
+    margin-left: 70px;
+    white-space: nowrap;
+
+  }
+
+  .benefits__description {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(137, 137, 137, 1);
+    white-space: nowrap;
+  }
+}

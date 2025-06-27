@@ -1,0 +1,16 @@
+.button_number_next {
+  width: 98px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgba(249, 241, 231, 1);
+  cursor: pointer;
+  .button_number_next_content {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+    padding: 20px 27px;
+  }
+}
